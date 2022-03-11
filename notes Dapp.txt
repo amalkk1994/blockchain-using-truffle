@@ -1,0 +1,20 @@
+npm install --g --production windows-build-tools
+npm install -g node-gyp
+
+1. install truffle
+
+npm install -g truffle
+
+https://blog.logrocket.com/interacting-smart-contracts-via-nodejs-api/
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+-------------------
+start mongo db
+
+mongod.exe --dbpath="D:\softwares\mongoDB\data\db"
+
+
+link project in truffle and then add your truffle config.js file
+
+the contract address of this should be used in our config file
+-------------------------
